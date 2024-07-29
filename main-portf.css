@@ -1,0 +1,47 @@
+@font-face {
+	font-family: normal;
+	src: url("../fonts/TheSunday.otf");
+}
+
+* {
+ 	padding: 0px;
+ 	margin: 0px;
+ 	text-decoration: none;
+ 	font-family: normal;
+}
+
+body {
+	background-image: url("../portfolio-images/dark-wood.jpg");
+}
+
+.paper {
+	left: 40%;
+	top: 20%;
+	text-align: center;
+	user-select: none;
+	position: absolute;
+	background-color: rgb(227, 227, 227);
+	height: 600px;
+	width: 400px;
+	border: 1px solid gray;
+	z-index: 1;
+	padding: 10px;
+	text-align: justify;
+}
+
+.paper img {
+	pointer-events: none;
+	width: 300px;
+}
+
+#tilted-right {
+	rotate: 15deg;
+}
+
+#tilted-left {
+	rotate: -15deg;
+}
+
+#tilted-slight-left {
+	rotate: -8deg;
+}
